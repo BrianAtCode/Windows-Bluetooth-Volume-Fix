@@ -3,6 +3,8 @@
 ## Overview
 Automatically monitors Windows Updates and manages Bluetooth AVRCP registry settings to prevent Bluetooth audio volume control issues. Runs via Task Scheduler with multiple triggers and provides system notifications when registry changes require a restart.
 
+**Example**: "This script can fix the max volume issue when the Bluetooth ear phone connected."
+
 **What it does:**
 - Monitors for Windows Updates and registry changes
 - Automatically fixes `DisableAbsoluteVolume` registry value when Windows updates reset it
